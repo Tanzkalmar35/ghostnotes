@@ -17,7 +17,7 @@ margins and are saved to a single, Git-friendly Markdown file.
 * **Zen Mode:** Toggle notes off instantly when you need to focus on the raw code.
 * **Bidirectional Teleportation:** Jump instantly from your code to the full Markdown context, and warp back to the code using Neovim's native `gF`.
 
-[Demo](images/ghostnotes-demo.png)
+![Demo](images/ghostnotes-demo.png)
 
 ---
 
@@ -42,6 +42,7 @@ Install using your favorite package manager.
         require("ghostnotes").setup()
     end
 }
+```
 
 ### Native `vim.pack`
 
