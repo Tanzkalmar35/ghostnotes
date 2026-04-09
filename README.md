@@ -66,11 +66,11 @@ By default, following keymaps control the plugin. I'll be working on making thes
 
 | Keymap | Action | Description |
 |---|---|---|
-| <leader>ka | Add note | Prompts you to input the note to attach to the current line and save under .notes/ghosts.md |
-| <leader>kd | Delete note  | Deletes the note on the current line from the current view and the disk |
-| <leader>kj | Jump to note | If the cursor is on a line with a note, this opens up a vertical split displaying the note in .notes/ghosts.md |
-| <leader>ks | Search notes | Opens up a FzfLua picker to search for (and navigate to) notes in the project |
-| <leader>kt | Toggle notes | Toggles the visibility of the notes on or off |
+| \<leader\>ka | Add note | Prompts you to input the note to attach to the current line and save under .notes/ghosts.md |
+| \<leader\>kd | Delete note  | Deletes the note on the current line from the current view and the disk |
+| \<leader\>kj | Jump to note | If the cursor is on a line with a note, this opens up a vertical split displaying the note in .notes/ghosts.md |
+| \<leader\>ks | Search notes | Opens up a FzfLua picker to search for (and navigate to) notes in the project |
+| \<leader\>kt | Toggle notes | Toggles the visibility of the notes on or off |
 
 ### Note classes
 
