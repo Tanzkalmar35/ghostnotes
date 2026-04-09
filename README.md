@@ -6,6 +6,8 @@ A lightweight, frictionless annotation system for Neovim.
 Neovim's virtual text. Instead of cluttering your source code with ugly comments, your notes hover beautifully in the 
 margins and are saved to a single, Git-friendly Markdown file.
 
+--- 
+
 ## ✨ Features
 
 * **Zero-Friction Entry:** Hit a key, type your note, and you're done. No complex menus.
@@ -58,6 +60,8 @@ Require and setup the plugin:
 require('ghostnotes').setup()
 ```
 
+---
+
 ## Usage & Keymaps
 
 ### Keymaps
@@ -81,11 +85,15 @@ Prefixing a note with one of the following keywords will automatically highlight
 - "todo: ..."
 - If no prefix is provided, there will be no special highlighting, and the note will be displayed in a default way
 
+---
+
 ## How it works
 
 The plugin does not touch your source files - don't worry. When a note is added, a .notes/ghosts.md will be created 
 in the project root. In this file, all notes will be stored. Furthermore, Below the actual notes, you can add more detailed 
 descriptions or whatever, which will not be displayed in-file.
+
+---
 
 Due to the plain-text storage of the notes, this directory can - if wanted - be committed to github, and used by remote users
 the same way as locally. Or just add .notes to the .gitignore, your choice.
